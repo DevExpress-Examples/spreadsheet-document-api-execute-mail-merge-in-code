@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailMergeExample", "MailMergeExample\MailMergeExample.csproj", "{1C061989-352F-4DCD-B619-A54E5849D83F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeInfo", "EmployeeInfo\EmployeeInfo.csproj", "{0E4E13F1-C5EC-458E-9263-1A24516C1B50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C061989-352F-4DCD-B619-A54E5849D83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C061989-352F-4DCD-B619-A54E5849D83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C061989-352F-4DCD-B619-A54E5849D83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C061989-352F-4DCD-B619-A54E5849D83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4E13F1-C5EC-458E-9263-1A24516C1B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4E13F1-C5EC-458E-9263-1A24516C1B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4E13F1-C5EC-458E-9263-1A24516C1B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4E13F1-C5EC-458E-9263-1A24516C1B50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
