@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Program.cs](./CS/MailMergeExample/Program.cs) (VB: [Program.vb](./VB/MailMergeExample/Program.vb))
+<!-- default file list end -->
 # Spreadsheet Document API - How to create a spreadsheet template in code and perform mail merge
 
 
