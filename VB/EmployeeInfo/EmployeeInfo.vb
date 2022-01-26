@@ -12,7 +12,7 @@ Namespace EmployeeInfo
         End Sub
 
         Public Shared Function GetData() As IEnumerable(Of EmployeeInfo)
-            Return DataSourceHelper.GetDataSouresFromXml(Of EmployeeInfo)("EmployeeInfo.data.xml", "ArrayOfEmployeeInfo")
+            Return DataSourceHelper.GetDataSouresFromXml(Of EmployeeInfo)("data.xml", "ArrayOfEmployeeInfo")
         End Function
     End Class
 
