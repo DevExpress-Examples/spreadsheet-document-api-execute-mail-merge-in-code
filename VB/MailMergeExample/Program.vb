@@ -42,11 +42,11 @@ Namespace MailMergeExample
 			workbook.EndUpdate()
 
 			' Set a detail range in the template.
-			Dim detail As CellRange = template.Range("C1:C9")
+			Dim detail As Range = template.Range("C1:C9")
 			detail.Name = "DETAILRANGE"
 
 			' Set a header range in the template.
-			Dim header As CellRange = template.Range("B1:B9")
+			Dim header As Range = template.Range("B1:B9")
 			header.Name = "HEADERRANGE"
 
 			' Switch the mail merge mode to "Multiple Sheets".
