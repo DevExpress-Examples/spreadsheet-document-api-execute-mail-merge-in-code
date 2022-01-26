@@ -15,7 +15,7 @@ Namespace MailMergeExample
 '		#Region "#main"
 		Using workbook As New Workbook()
 			workbook.Unit = DevExpress.Office.DocumentUnit.Inch
-			workbook.BeginUpdate()
+			
 			' Create a mail merge template.
 			Dim template As Worksheet = workbook.Worksheets(0)
 			template.Rows(1).RowHeight = 1.5
@@ -23,6 +23,7 @@ Namespace MailMergeExample
 			template.Columns(1).Alignment.Vertical = SpreadsheetVerticalAlignment.Center
 			template.Columns(2).ColumnWidth = 2.5
 			template.Columns(2).Alignment.WrapText = True
+			workbook.BeginUpdate()
 			template.Cells("C2").Formula = "FIELDPICTURE(""Photo"", ""range"", C2, FALSE, 50)"
 			template.Cells("C3").Formula = "=FIELD(""FirstName"")&"" ""&FIELD(""LastName"")"
 			template.Cells("B4").Value = "Position:"
