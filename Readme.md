@@ -13,6 +13,6 @@ This example demonstrates how to use the <a href="https://documentation.devexpr
 
 * [Program.cs](./CS/MailMergeExample/Program.cs) (VB: [Program.vb](./VB/MailMergeExample/Program.vb))
 
-  ## Documentation
+## Documentation
 
-  * [Mail Merge in the Spreadsheet Document API](https://docs.devexpress.com/OfficeFileAPI/118749/spreadsheet-document-api/mail-merge)
+* [Mail Merge in the Spreadsheet Document API](https://docs.devexpress.com/OfficeFileAPI/118749/spreadsheet-document-api/mail-merge)
