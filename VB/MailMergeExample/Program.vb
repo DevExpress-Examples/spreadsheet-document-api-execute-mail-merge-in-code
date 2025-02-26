@@ -60,9 +60,9 @@ Namespace MailMergeExample
 				workbook.MailMergeDataSource = EmployeeInfo.EmployeesInfo.GetData()
 				Dim result = workbook.GenerateMailMergeDocuments()
 				result(0).SaveDocument("result.xlsx")
-				System.Diagnostics.Process.Start("result.xlsx")
+				System.Diagnostics.Process.Start(New ProcessStartInfo("result.xlsx") With {.UseShellExecute = True})
 			End Using
-			'			#End Region ' #main
+			'			#End Region
 		End Sub
 	End Module
 End Namespace

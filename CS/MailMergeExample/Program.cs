@@ -60,7 +60,7 @@ namespace MailMergeExample {
                 workbook.MailMergeDataSource = EmployeeInfo.EmployeesInfo.GetData();
                 var result = workbook.GenerateMailMergeDocuments();
                 result[0].SaveDocument("result.xlsx");
-                System.Diagnostics.Process.Start("result.xlsx");
+                System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo("result.xlsx") {  UseShellExecute = true });
                 #endregion #main
             }               
         }
