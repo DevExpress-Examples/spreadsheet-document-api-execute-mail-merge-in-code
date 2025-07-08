@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.Drawing;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
@@ -36,7 +37,7 @@ namespace EmployeeInfo {
         public string HomePhone { get; set; }
         public string Extension { get; set; }
         [XmlIgnoreAttribute()]
-        public Bitmap Photo { get; set; }
+        public DXImage Photo { get; set; }
         [XmlElementAttribute("Photo")]
         public byte[] PictureByteArray
         {
@@ -54,7 +55,7 @@ namespace EmployeeInfo {
             set
             {
                 if (value != null)
-                    Photo = new Bitmap(new MemoryStream(value));
+                    Photo = DXImage.FromStream(new MemoryStream(value));
                 else
                     Photo = null;
             }

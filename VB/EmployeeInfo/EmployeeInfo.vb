@@ -36,7 +36,7 @@ Namespace EmployeeInfo
 		Public Property HomePhone() As String
 		Public Property Extension() As String
 		<XmlIgnoreAttribute()>
-		Public Property Photo() As Bitmap
+		Public Property Photo() As DXImage
 		<XmlElementAttribute("Photo")>
 		Public Property PictureByteArray() As Byte()
 			Get
@@ -49,7 +49,7 @@ Namespace EmployeeInfo
 			End Get
 			Set(ByVal value As Byte())
 				If value IsNot Nothing Then
-					Photo = New Bitmap(New MemoryStream(value))
+					Photo = New DXImage(New MemoryStream(value))
 				Else
 					Photo = Nothing
 				End If
