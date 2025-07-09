@@ -50,7 +50,7 @@ Namespace EmployeeInfo
 			End Get
 			Set(ByVal value As Byte())
 				If value IsNot Nothing Then
-					Photo = New DXImage(New MemoryStream(value))
+					Photo = DXImage.FromStream(New MemoryStream(value))
 				Else
 					Photo = Nothing
 				End If
