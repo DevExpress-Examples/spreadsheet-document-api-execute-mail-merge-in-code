@@ -4,6 +4,7 @@ Imports System.ComponentModel
 Imports System.Drawing
 Imports System.IO
 Imports System.Xml.Serialization
+Imports DevExpress.Drawing
 
 Namespace EmployeeInfo
 	Public Module EmployeesInfo
